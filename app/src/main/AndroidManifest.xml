@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Taller2">
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.home"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
