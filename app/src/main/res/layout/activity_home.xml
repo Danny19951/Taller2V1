@@ -22,14 +22,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="308dp"
+        android:layout_height="37dp"
         android:layout_marginBottom="432dp"
         android:fontFamily="serif"
-        android:text="Inventory manager"
+        android:text="@string/app_name"
         android:textColor="#ffffff"
-        android:textSize="58px"
+        android:textSize="25sp"
         android:textStyle="bold"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -40,13 +41,13 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="409dp"
-        android:layout_height="101dp"
+        android:layout_width="414dp"
+        android:layout_height="119dp"
         android:fontFamily="serif"
-        android:text="Inicia una nueva forma de manejar tu inventario y descubre el maximo detu eficiencia"
+        android:text="@string/textoIntroductorio"
         android:textAlignment="center"
         android:textColor="#ffffff"
-        android:textSize="58px"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -56,30 +57,33 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ComienzaBtn"
         android:layout_width="266dp"
         android:layout_height="49dp"
         android:layout_marginTop="68dp"
         android:backgroundTint="#FFFFFF"
-        android:text="Comienza"
+        android:text="@string/comienza"
         android:textColor="#000000"
-        android:textSize="55px"
+        android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="72dp" />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="122dp"
         android:layout_height="19dp"
+        android:layout_marginBottom="128dp"
         android:fontFamily="serif"
-        android:text="Registrate"
+        android:text="@string/registrate"
         android:textAlignment="center"
         android:textColor="#F15429"
-        android:textSize="38px"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
         app:layout_constraintVertical_bias="0.503" />
