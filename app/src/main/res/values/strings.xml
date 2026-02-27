@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Taller2</string>
+    <string name="app_name">Inventory manager</string>
+    <string name="textoIntroductorio">Inicia una nueva forma de manejar tu inventario y descubre el maximo de tu eficiencia</string>
+    <string name="registrate">Registrate</string>
+    <string name="comienza">Comienza</string>
+    <string name="emailexample">Email@email.com</string>
+    <string name="personicondescription">un icono de una persona</string>
+    <string name="keyicondescription">icono de una llave</string>
+    <string name="passwordhit">contraseña</string>
+    <string name="loginbuttontext">Ingresar</string>
+    <string name="recuperaContrasena">Recupera Tu Contraseña</string>
+    <string name="ingoogle">Ingresa con Google</string>
+    <string name="sincuenta">No tienes cuenta?</string>
+    <string name="nombreautor">Daniel Julian Laiton Muñoz</string>
+
 </resources>
