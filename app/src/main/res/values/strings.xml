@@ -1,16 +1,25 @@
 <resources>
     <string name="app_name">Inventory manager</string>
-    <string name="textoIntroductorio">Inicia una nueva forma de manejar tu inventario y descubre el maximo de tu eficiencia</string>
+    <string name="textointroductorio">Inicia una nueva forma de manejar tu inventario y descubre el maximo de tu eficiencia</string>
     <string name="registrate">Registrate</string>
+    <string name="registrarse">registrarse</string>
+    <string name="registro">REGISTRO</string>
     <string name="comienza">Comienza</string>
+    <string name="yatienescuenta">¿ya tienes cuenta? Iniciar sesion</string>
     <string name="emailexample">Email@email.com</string>
     <string name="personicondescription">un icono de una persona</string>
     <string name="keyicondescription">icono de una llave</string>
     <string name="passwordhit">contraseña</string>
+    <string name="namehint">Nombre</string>
+    <string name="lastnamehint">Apellido</string>
     <string name="loginbuttontext">Ingresar</string>
-    <string name="recuperaContrasena">Recupera Tu Contraseña</string>
+    <string name="recuperacontrasena">Recupera Tu Contraseña</string>
     <string name="ingoogle">Ingresa con Google</string>
     <string name="sincuenta">No tienes cuenta?</string>
     <string name="nombreautor">Daniel Julian Laiton Muñoz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inicio">Inicio</string>
+    <string name="catalogo">Catalogo</string>
 
 </resources>

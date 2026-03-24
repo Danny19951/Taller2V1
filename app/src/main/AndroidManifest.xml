@@ -11,21 +11,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Taller2">
+        <activity
+            android:name=".ui.auth.registro"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
         <activity
-            android:name=".Activities.LogIn"
+            android:name=".ui.auth.LogIn"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.main.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.inicio.home"
             android:exported="false" />
         <activity
-            android:name=".Activities.home"
-            android:exported="false" />
-        <activity
-            android:name=".Activities.Splash"
+            android:name=".ui.inicio.Splash"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
